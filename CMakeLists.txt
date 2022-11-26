@@ -192,7 +192,7 @@ endfunction()
 set(TGTF042_LIST "cantact" "canalyze" "canable" "usb2can" "cannette")
 set(TGTF072_LIST "candleLight" "CANable_MKS" "CONVERTDEVICE_xCAN01")
 set(TGTF407_LIST "STM32F4_DevBoard")
-set(TGTG0B1_LIST "budgetcan")
+set(TGTG0B1_LIST "budgetcan" "G0B1_U2C")
 
 foreach (TGTNAME IN LISTS TGTF042_LIST)
 	option(BUILD_${TGTNAME} "Build firmware for \"${TGTNAME}\" (default=yes)" ON)
