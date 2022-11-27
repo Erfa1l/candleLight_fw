@@ -296,15 +296,15 @@ THE SOFTWARE.
 	#define USBD_MANUFACTURER_STRING	(uint8_t*) "bytewerk"
 	#define DFU_INTERFACE_STRING_FS		(uint8_t*) "candleLight firmware upgrade interface"
 
-	#define LED1_Pin GPIO_PIN_0
-	#define LED1_Mode GPIO_MODE_OUTPUT_OD
-	#define LED1_GPIO_Port GPIOA
-	#define LED1_Active_High 0
+	#define LEDRX_Pin GPIO_PIN_0
+	#define LEDRX_Mode GPIO_MODE_OUTPUT_OD
+	#define LEDRX_GPIO_Port GPIOA
+	#define LEDRX_Active_High 0
 
-	#define LED2_GPIO_Port GPIOA
-	#define LED2_Pin GPIO_PIN_1
-	#define LED2_Mode GPIO_MODE_OUTPUT_OD
-	#define LED2_Active_High 0
+	#define LEDTX_GPIO_Port GPIOA
+	#define LEDTX_Pin GPIO_PIN_1
+	#define LEDTX_Mode GPIO_MODE_OUTPUT_OD
+	#define LEDTX_Active_High 0
 #else
 	#error please define BOARD
 #endif
