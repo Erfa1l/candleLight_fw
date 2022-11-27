@@ -295,6 +295,11 @@ THE SOFTWARE.
 	#define USBD_PRODUCT_STRING_FS		(uint8_t*) "candleLight USB to CAN adapter"
 	#define USBD_MANUFACTURER_STRING	(uint8_t*) "bytewerk"
 	#define DFU_INTERFACE_STRING_FS		(uint8_t*) "candleLight firmware upgrade interface"
+	
+	#define CAN_INTERFACE			 FDCAN1
+	#define CAN_INTERFACE2			 FDCAN2
+	#define CAN_CLOCK_SPEED			 64000000
+	#define CANFD_SUPPORT
 
 	#define LEDRX_Pin GPIO_PIN_0
 	#define LEDRX_Mode GPIO_MODE_OUTPUT_OD
